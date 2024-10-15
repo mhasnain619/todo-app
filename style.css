@@ -10,7 +10,6 @@ body {
     background-color: #f0f4f8;
     display: flex;
     justify-content: center;
-    align-items: center;
     height: 100vh;
     color: #333;
 }
@@ -91,6 +90,16 @@ h1 {
 
 #task-list li .delete-task {
     background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#task-list li .edit-task {
+    background-color: #4f07f7;
     color: white;
     border: none;
     padding: 5px 10px;
